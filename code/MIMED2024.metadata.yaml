@@ -1,0 +1,88 @@
+_dataset:
+  class: MIMED2024
+  code: MIMED2024
+  doi: 10.1016/j.dib.2024.110833
+  interval:
+  - 0
+  - 4
+  n_subjects: 30
+  paradigm: imagery
+abstract: The MIMED dataset provides EEG recordings of motor imagery and motor execution for six activities (raising and lowering
+  each hand, standing and sitting) from 30 subjects, acquired with a 14-channel Emotiv EPOC X headset at 128 Hz. The distributed
+  imagery .mat files carry no per-repetition activity label, so the loader exposes the reliable folder-level 3-class task
+  (left_hand / right_hand / trunk).
+acquisition:
+  channel_types:
+    eeg: 14
+  ground: DRL
+  hardware: Emotiv EPOC X
+  line_freq: 50.0
+  montage: standard_1020
+  reference: CMS/DRL (P3/P4)
+  sampling_rate: 128.0
+  sensor_type: saline felt (Ag/AgCl)
+  sensors:
+  - AF3
+  - F7
+  - F3
+  - FC5
+  - T7
+  - P7
+  - O1
+  - O2
+  - P8
+  - T8
+  - FC6
+  - F4
+  - F8
+  - AF4
+documentation:
+  country: ID
+  data_url: https://doi.org/10.17632/zs25xxjkm9.3
+  description: 'MIMED: motor imagery and motor execution EEG dataset of six activities recorded from 30 subjects with an Emotiv
+    EPOC X 14-channel headset at 128 Hz.'
+  doi: 10.1016/j.dib.2024.110833
+  institution: Universitas Pendidikan Ganesha
+  institution_department: Data Science Laboratories, Engineering and Vocational Faculty
+  investigators:
+  - I Made Agus Wirawan
+  - Dechrit Maneetham
+  - I Gede Mahendra Darmawiguna
+  - Arnon Niyomphol
+  - Pakornkiat Sawetmethikul
+  - Padma Nyoman Crisnapati
+  - Yamin Thwe
+  - Ni Nyoman Mestri Agustini
+  license: CC-BY-4.0
+  publication_year: 2024
+  related_paper_dois:
+  - 10.17632/zs25xxjkm9.3
+  repository: Mendeley Data
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - trunk
+  events:
+    left_hand: 1
+    right_hand: 2
+    trunk: 3
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  stimulus_type: video
+file_format: MAT (converted from EDF)
+participants:
+  gender:
+    female: 14
+    male: 16
+  health_status: healthy
+  n_subjects: 30
+  species: homo sapiens
+runs_per_session: 6
+sessions_per_subject: 2
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
