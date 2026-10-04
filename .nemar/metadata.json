@@ -1,0 +1,92 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "I Made Agus Wirawan": {
+      "orcid": "0000-0002-9242-6724"
+    },
+    "Dechrit Maneetham": {},
+    "I Gede Mahendra Darmawiguna": {},
+    "Arnon Niyomphol": {},
+    "Pakornkiat Sawetmethikul": {},
+    "Padma Nyoman Crisnapati": {
+      "orcid": "0000-0002-7795-190X"
+    },
+    "Yamin Thwe": {},
+    "Ni Nyoman Mestri Agustini": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.dib.2024.110833",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.17632/zs25xxjkm9.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000296",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000296",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "MIMED2024",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "20.79 MB (361 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "MIMED2024 provides EEG recordings of motor imagery and motor execution for six movement activities (raising and lowering each hand, standing and sitting) from 30 healthy participants across two sessions. Data were acquired with a 14-channel Emotiv EPOC X headset at 128 Hz. This MOABB-derived version exposes a folder-level 3-class imagery task (left hand, right hand, trunk) for brain-computer interface benchmarking.",
+  "methods_description": "EEG was recorded with a 14-channel Emotiv EPOC X headset (saline felt sensors, 10-20 montage, 128 Hz, CMS/DRL reference) while participants imagined or executed movements cued by video. Each subject completed 2 sessions of 6 runs, with trials of 4 s. Original EDF files were converted to MAT format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Emotiv EPOC X"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "c5e5141b854e39ead685740cd6fbdc20cb2cf935e939cedcb6ca25f551d02659"
+}
