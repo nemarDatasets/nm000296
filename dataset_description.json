@@ -1,5 +1,5 @@
 {
-    "Name": "MIMED2024",
+    "Name": "MIMED2024: Motor Imagery MIMED dataset from Wirawan et al. 2024",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -37,5 +37,8 @@
             "URL": "https://doi.org/10.17632/zs25xxjkm9.3"
         }
     ],
-    "PublicationYear": 2024
+    "PublicationYear": 2024,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
