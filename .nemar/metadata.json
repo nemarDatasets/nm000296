@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MIMED2024: Motor Imagery MIMED dataset from Wirawan et al. 2024",
-  "description": "The MIMED dataset contains EEG recordings of motor imagery and motor execution for six activities (raising and lowering each hand, standing and sitting) from 30 healthy participants. Data were acquired with a 14-channel Emotiv EPOC X headset at 128 Hz over two sessions per subject. This BIDS re-release via MOABB exposes a folder-level 3-class imagery task (left hand, right hand, trunk).",
-  "methods_description": "EEG was recorded with a 14-channel Emotiv EPOC X headset (saline felt sensors, standard 10-20 montage) at 128 Hz. Each participant completed 2 sessions of 6 runs, with video-cued trials of 4 s. The source recordings were originally distributed as EDF files and as MAT files; the MAT files were reformatted to BIDS with HED event annotations.",
+  "description": "EEG recordings of motor imagery and motor execution for six activities (raising and lowering each hand, standing and sitting) from 30 healthy participants over two sessions. Data were acquired with a 14-channel Emotiv EPOC X headset at 128 Hz. This BIDS re-release, produced via MOABB, exposes a 3-class imagery task (left hand, right hand, trunk) for brain-computer interface research. The distributed imagery files carry no per-repetition activity label, so only folder-level 3-class labels are available.",
+  "methods_description": "EEG was recorded with a 14-channel Emotiv EPOC X headset (saline felt sensors, 128 Hz, standard 10-20 montage, CMS/DRL reference) from 30 subjects across 2 sessions of 6 runs each. Participants imagined movements cued by video, with trials spanning 0-4 s. Original EDF files were converted to MAT and then to BIDS using MOABB.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,13 +28,13 @@
       "term": "motor imagery"
     },
     {
-      "term": "motor execution"
-    },
-    {
       "term": "brain-computer interface"
     },
     {
       "term": "Emotiv EPOC X"
+    },
+    {
+      "term": "motor execution"
     },
     {
       "term": "Imagination",
@@ -80,14 +80,16 @@
     "eeg"
   ],
   "sizes": [
-    "20.79 MB (361 files)"
+    "39.88 MB (452 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".mat",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6540e823184f208b8b3db2d26068034f96ef3f75e19867399fda9a9631fd8003"
+  "source_hash": "144d5ff9670097a5aeb6f7b79d38fa2a4d97c496ec7a3512e74cde6896a1d445"
 }
