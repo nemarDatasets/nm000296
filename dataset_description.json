@@ -1,44 +1,48 @@
 {
-    "Name": "MIMED2024: Motor Imagery MIMED dataset from Wirawan et al. 2024",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "I Made Agus Wirawan",
-        "Dechrit Maneetham",
-        "I Gede Mahendra Darmawiguna",
-        "Arnon Niyomphol",
-        "Pakornkiat Sawetmethikul",
-        "Padma Nyoman Crisnapati",
-        "Yamin Thwe",
-        "Ni Nyoman Mestri Agustini"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.17632/zs25xxjkm9.3"
-    ],
-    "Keywords": [
-        "Motor",
-        "Motor Imagery",
-        "imagery"
-    ],
-    "DatasetDOI": "doi:10.1016/j.dib.2024.110833",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.1016/j.dib.2024.110833",
-            "URL": "https://doi.org/10.17632/zs25xxjkm9.3"
-        }
-    ],
-    "PublicationYear": 2024,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "MIMED2024: Motor Imagery MIMED dataset from Wirawan et al. 2024",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "I Made Agus Wirawan",
+    "Dechrit Maneetham",
+    "I Gede Mahendra Darmawiguna",
+    "Arnon Niyomphol",
+    "Pakornkiat Sawetmethikul",
+    "Padma Nyoman Crisnapati",
+    "Yamin Thwe",
+    "Ni Nyoman Mestri Agustini"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.17632/zs25xxjkm9.3"
+  ],
+  "Keywords": [
+    "Motor",
+    "Motor Imagery",
+    "imagery"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000296",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1016/j.dib.2024.110833",
+      "URL": "https://doi.org/10.17632/zs25xxjkm9.3"
+    },
+    {
+      "DOI": "doi:10.1016/j.dib.2024.110833"
+    }
+  ],
+  "PublicationYear": 2024,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
